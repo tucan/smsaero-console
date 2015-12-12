@@ -1,18 +1,19 @@
 {
-	"name": "smsaero-console",
+	"name": "smsaero-tools",
 	"version": "0.1.0-stub",
-	"description": "SMSAero console",
+	"description": "Tools for SMSAero service",
 	"main": "./lib/index",
+	"license": "MIT",
 	"author": {
 		"name": "Vladimir Andreev",
 		"email": "volodya@netfolder.ru"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tucan/smsaero-console.git"
+		"url": "https://github.com/tucan/smsaero-tools.git"
 	},
 	"dependencies": {
-		"smsaero-extended": "0.x"
+		"smsaero": "0.x"
 	},
 	"devDependencies": {
 		"coffee-script": "1.x"
